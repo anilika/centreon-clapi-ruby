@@ -1,5 +1,8 @@
-require "centreon_clapi/version"
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'centreon_clapi/version'
 
 module CentreonClapi
-  # Your code goes here...
+  config = Config.new
 end
+
