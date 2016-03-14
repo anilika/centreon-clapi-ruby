@@ -1,0 +1,7 @@
+[centreon]
+bin = "/usr/bin/centreon"
+user = "admin"
+pass = "123"
+
+[file]
+link = "./test.txt"
